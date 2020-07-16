@@ -1,13 +1,28 @@
-# Project Name
-Long Description about project. This project do that. This project is awesome...
+# TinkerHub Portal - Frontend
+
+This repo will contain code and docs regarding the back-end structure and API updates and details for the upcoming TinkerHub Portal.
+
 ## How it Works ?
-Explaining the working of project
+
+This project creates an API which provides a lot of information for the front-end project. Front-end repo can be found here.
+
 ## Libraries used
-Library Name - Version
+
+- Python (?)
+- Django
+
 ## How to configure
-Instructions for setting up project
+
+TBD - Instructions for setting up project
+
 ## How to Run
-Instructions for running
+
+TBD - Instructions for running
+
 ## How to Test 
-Instructions for testing  
+
+TBD - Instructions for testing 
+
 ## Contributors
+
+- `contributor info here`
