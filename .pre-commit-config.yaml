@@ -1,0 +1,19 @@
+- repo: https://github.com/pre-commit/pre-commit-hooks
+  sha: master
+  hooks:
+  - id: check-added-large-files
+    args: ['--maxkb=730']
+  - id: check-case-conflict
+  - id: check-ast
+  - id: check-json
+  - id: check-merge-conflict
+  - id: debug-statements
+  - id: detect-private-key
+  - id: name-tests-test
+    args: ['--django']
+  - id: requirements-txt-fixer
+  - id: double-quote-string-fixer
+  - id: end-of-file-fixer
+    files: \.(asciidoc|adoc|coffee|cpp|css|c|ejs|erb|groovy|h|haml|hh|hpp|hxx|html|in|j2|jade|json|js|less|markdown|md|ml|mli|pp|py|rb|rs|R|scala|scss|sh|slim|tex|tmpl|ts|txt|yaml|yml)$
+  - id: trailing-whitespace
+    files: \.(asciidoc|adoc|coffee|cpp|css|c|ejs|erb|groovy|h|haml|hh|hpp|hxx|html|in|j2|jade|json|js|less|markdown|ml|mli|pp|py|rb|rs|R|scala|scss|sh|slim|tex|tmpl|ts|txt|yaml|yml)$
