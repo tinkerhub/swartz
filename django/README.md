@@ -37,8 +37,9 @@ In development env the swartz directory within the docker container is mounted t
 ### Development
 To run in development env:
 1. Install Docker https://www.docker.com/products/docker-desktop
-2. From root directory of swartz execute `docker-compose up` or `docker-compose up -d` to run as deamon. Docker will pull and build the image first time and execute the containers.
-3. Open `http://127.0.0.1/` to see things in action.
+2. Make .env file in same directory as `docker-compose.yml` or edit the `.env` path in it. Refer `env_sample` file.
+3. From root directory of swartz execute `docker-compose up` or `docker-compose up -d` to run as deamon. Docker will pull and build the image first time and execute the containers.
+4. Open `http://127.0.0.1/` to see things in action.
 
 
 #### Super user
