@@ -5,8 +5,8 @@ Some bash scripts to perform useful magic.
 To keep consistency and easy of maintenance of run commands for Django and other applications used in the project across
 different environment the commands are placed in scripts and the required scripts are executed.
 
-| File     |      Usage Description      |
-|----------|:--------------:|
+| File     |      Usecase      |
+|----------|-------------------|
 | prepare_environment.sh    | Environment checks and prepares log files |
 | run_app_celery_beat.sh    | Celery Beat starter |
 | run_app_celery_dev.sh     | Celery Beat and Celery worker only for dev environment  |
