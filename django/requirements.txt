@@ -1,0 +1,4 @@
+celery==4.4.6
+concurrent-log-handler==0.9.12
+coverage==4.5.2
+Django==2.2.14
