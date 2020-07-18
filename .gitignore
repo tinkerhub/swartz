@@ -1,0 +1,43 @@
+# Docker Mount Dirs #
+#####################
+.env
+media
+postgres-data
+es-data
+logs
+
+# Django's static assets use same name to store static files
+# only the static dir shared b/w docker containers needs to be ignored
+/static
+
+# Django #
+##########
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
+venv
+
+# Celery #
+##########
+celerybeat-schedule
+celerybeat.pid
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+
+# Editor #
+##########
+.idea
+packman.iml
+.vscode
